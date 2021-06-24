@@ -15,7 +15,8 @@ import {
   Search,
   SearchIcon,
   SearchInput,
-  PlayButton
+  PlayButton,
+  Image
 } from "./styles/header";
 import { useState } from "react";
 
@@ -64,6 +65,10 @@ Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
 
 Header.Picture = function HeaderPicture({ src, ...restProps }) {
   return <Picture {...restProps} src={`/images/users/${src}.png`} />;
+};
+
+Header.Image = function HeaderImage({ src, ...restProps }) {
+  return <Image {...restProps} src={`/images/misc/${src}.png`} />;
 };
 
 Header.Dropdown = function HeaderDropdown({ children, ...restProps }) {

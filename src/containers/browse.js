@@ -43,7 +43,7 @@ export function BrowseContainer({ slides }) {
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 
-      <Header src="joker1" dontShowOnSmallViewPort>
+      <Header src="director" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt="netflix" />
@@ -82,8 +82,8 @@ export function BrowseContainer({ slides }) {
           </Header.Group>
         </Header.Frame>
         <Header.Feature>
-          <Header.FeatureCallOut>Joker (2020)</Header.FeatureCallOut>
-          <Header.Text>Joker blah blah blah</Header.Text>
+          <Header.Image src={"director_title"} alt = "title"></Header.Image>
+          <Header.Text>In 1980s Japan, one determined man turned every crushing setback into opportunity. His name was Toru Muranishi, and he revolutionized his industry.</Header.Text>
           <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
       </Header>
