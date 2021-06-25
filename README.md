@@ -5,12 +5,17 @@ This application is a clone of **Netflix** UI and is built using React and Fireb
 
 The project is currently running live at: https://netflix-clone-1f2e8.firebaseapp.com
 
+![](Netflix.png)
+
 ### Architecture
 ##### Folder Structure 
+![](folder-structure.png)
 
-##### Components structure
+##### Compound Components Structure
+![](compound-component.png)
 
-##### Flow
+##### App Flow
+![](app-flow.png)
 
 ### Run this project
 1. Clone the project
