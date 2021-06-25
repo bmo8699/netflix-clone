@@ -18,10 +18,15 @@ The project is currently running live at: https://netflix-clone-1f2e8.firebaseap
     ``` git clone https://github.com/bmo8699/netflix-clone.git ```
 2. Install dependencies 
 
-    ``` yarn install ```
+    ``` 
+    $ cd netflix-clone
+    $ yarn install 
+    ```
 3. Run the app
 
-    ``` yarn start ```
+    ``` 
+    $ yarn start 
+    ```
 
 
 
